@@ -10,9 +10,13 @@ namespace FirstStep
         static void Main(string[] args)
         {
             /*クラスを読み込んで実装させる*/
-            basic test = new basic();
+            ShowDataTypes test = new ShowDataTypes();
 
-            test.Datatype();
+            test.Numbers();
+            test.ScientificNumbers();
+            test.Booleans();
+            test.Characters();
+            test.Strings();
 
             Console.ReadLine();
         }
