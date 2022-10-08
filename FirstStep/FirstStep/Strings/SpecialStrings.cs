@@ -17,6 +17,8 @@ namespace FirstStep
             Console.WriteLine(txt1);
 
             // write single backslash
+            string txt2 = "The character \\ is called backslash.";
+            Console.WriteLine(txt2);
         }
     }
 }

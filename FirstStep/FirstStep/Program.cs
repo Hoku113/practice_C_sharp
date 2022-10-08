@@ -10,10 +10,11 @@ namespace FirstStep
         static void Main(string[] args)
         {
             /*クラスを読み込んで実装させる*/
-            Access test = new Access();
+            SortArray test = new SortArray();
 
-            test.AccessStrings();
-            test.ExtractsCharacters();
+            test.SortExample();
+            test.SortInt();
+            test.Example2();
 
             Console.ReadLine();
         }
